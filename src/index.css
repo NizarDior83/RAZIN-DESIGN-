@@ -1,0 +1,35 @@
+body {
+    background-color: #023047; /* Deep Prussian Canvas from brand anchors */
+    scroll-behavior: smooth;
+}
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+.glass-nav {
+    background: rgba(2, 48, 71, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+.glow-gold:focus {
+    box-shadow: 0 0 15px rgba(255, 183, 3, 0.4);
+    border-color: #FFB703;
+}
+.text-selective-gold { color: #FFB703; }
+.text-muted-sky { color: #8ECAE6; }
+.bg-canvas { background-color: #023047; }
+.bg-vibrant-cerulean { background-color: #209dbb; }
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #023047;
+}
+::-webkit-scrollbar-thumb {
+  background: #574335;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fb8500;
+}
